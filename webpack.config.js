@@ -10,7 +10,7 @@ module.exports = {
   //devtool: "none",
   entry: {
     "entry1-call-nothing" : "./src/entry1-call-nothing.ts",
-    "entry2-call-everything" : "./src/entry2-call-everything.ts",
+    "entry2-call-something" : "./src/entry2-call-something.ts",
     "entry3-call-sub" : "./src/entry3-call-sub.ts",
 
   } ,
