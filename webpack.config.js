@@ -5,8 +5,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 
 module.exports = {
-  mode: "development",
-  //mode: "production",
+  //mode: "development",
+  mode: "production",
   //devtool: "none",
   entry: {
     "entry1-call-nothing" : "./src/entry1-call-nothing.ts",
@@ -14,7 +14,7 @@ module.exports = {
     "entry3-call-sub" : "./src/entry3-call-sub.ts",
 
   } ,
-  devtool: "none", // none= more readable output code when not minified, less debuggable in browser runtime maybe
+  //devtool: "none", // none= more readable output code when not minified, less debuggable in browser runtime maybe
   // optimization: {
   //   usedExports: true,
   // },
