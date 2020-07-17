@@ -1,0 +1,44 @@
+{
+  "name": "tree-shaking-test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry1-call-nothing.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fvigotti/tree-shaking-test1.git"
+  },
+  "author": "David Gee",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fvigotti/tree-shaking-test1/issues"
+  },
+  "homepage": "https://github.com/fvigotti/tree-shaking-test1#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "@types/node": "^14.0.23",
+    "@types/source-map-support": "^0.5.2",
+    "@types/webpack": "^4.41.21",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-minify-dead-code-elimination": "^0.5.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "pump": "^3.0.0",
+    "serve": "^11.3.2",
+    "source-map-support": "^0.5.19",
+    "terser-webpack-plugin": "^3.0.6",
+    "ts-loader": "^8.0.0",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "tslint-blueprint": "^0.1.0",
+    "typescript": "^3.9.6",
+    "watchify": "^3.11.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-stream": "^5.2.1"
+  }
+}
